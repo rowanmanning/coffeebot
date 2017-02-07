@@ -1,0 +1,28 @@
+{
+  "name": "coffeebot",
+  "version": "0.0.0",
+  "description": "Ping when there's coffee.",
+  "keywords": [],
+  "license": "MIT",
+  "author": "Rowan Manning",
+  "homepage": "https://github.com/rowanmanning/coffeebot#readme",
+  "bugs": {
+    "url": "https://github.com/rowanmanning/coffeebot/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowanmanning/coffeebot.git"
+  },
+  "engines": {
+    "node": "^6"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "request": "^2.79.0"
+  }
+}
